@@ -9,7 +9,7 @@ for filename in results/fastqc/*.zip; do
 	unzip $filename
 done
 
-#3 Construting original reference genome GT
+#3 Construting original reference genome GT (sacCer3 + Ty5-6p)
 cat data/references/*.fa > data/references/combined/GT.fa
 
 #4 Bowtie 2
